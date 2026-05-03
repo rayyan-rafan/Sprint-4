@@ -35,9 +35,9 @@ This project is a Django Blog application enhanced for Sprint 4 with blog post c
 ## Setup Instructions
 
 ### 1. Clone the repository
-
+    cd ~/Sprint-4
     git clone <repository-url>
-    cd Sprint-4
+    cd Sprint-3
 
 ### 2. Create and activate virtual environment
 
