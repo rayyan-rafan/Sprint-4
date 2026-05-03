@@ -35,9 +35,23 @@ This project is a Django Blog application enhanced for Sprint 4 with blog post c
 ## Setup Instructions
 
 ### 1. Clone the repository
+    ## Repository Structure Note
+
+During development, the Sprint 3 repository was cloned inside the Sprint 4 folder on the EC2 machine. Because of this, the project path on the server was:
+
+    ~/Sprint-4/Sprint-3
+
+The setup followed this structure:
+
     cd ~/Sprint-4
     git clone <repository-url>
     cd Sprint-3
+
+So all project commands such as Docker build, Git commands, deployment workflow changes, and README updates were executed from:
+
+    ~/Sprint-4/Sprint-3
+
+If someone clones the repository directly in a different location, they should simply run the same commands from their own repository root.
 
 ### 2. Create and activate virtual environment
 
