@@ -31,7 +31,11 @@ This project is a Django Blog application enhanced for Sprint 4 with blog post c
 - Pillow
 - django-storages
 - boto3
+## Sprint 4 Video Demonstration
 
+A video demonstration was created to show the Sprint 4 implementation, including the blog post form, image upload, S3 bucket, Django admin, CloudWatch logs, GitHub README, and EC2 deployed application.
+
+[Watch Sprint 4 Demo Video](https://youtu.be/x6506qE_Bdc)
 ## Setup Instructions
 
 ### 1. Clone the repository
