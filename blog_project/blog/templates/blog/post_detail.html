@@ -1,0 +1,19 @@
+{% block content %}
+  <h2>{{ post.title }}</h2>
+
+  {% if post.author %}
+    <p><strong>Author:</strong> {{ post.author }}</p>
+  {% endif %}
+
+  <p><strong>Created on:</strong> {{ post.created_at }}</p>
+
+  <div>
+    <p>{{ post.content }}</p>
+
+    {% if post.image %}
+      <img src="{{ post.image.url }}" alt="{{ post.title }}" width="400">
+    {% endif %}
+  </div>
+
+  <a href="{% url 'create_post' %}">Create New Post</a>
+{% endblock %}
