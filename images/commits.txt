@@ -1,0 +1,5 @@
+* 785cfcc Add gunicorn dependency for deployment
+* 7abfe8c Fix CI requirements location
+* b00b3f9 Fix requirements path in CI
+* 254ca67 Update Docker file
+* c320b4f Initial commit without secrets
